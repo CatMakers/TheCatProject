@@ -5,12 +5,12 @@
     "name": "playerObj",
     "eventList": [
         {
-            "id": "db0ee75d-a8fc-42fd-b45c-04f4ed535163",
+            "id": "c2e13170-e5b9-4dc7-9d4b-0fbe35fb4ccc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 39,
+            "enumb": 1,
             "eventtype": 9,
             "m_owner": "3cacb86e-736d-4feb-a1cf-103aa2dcd0c5"
         }
