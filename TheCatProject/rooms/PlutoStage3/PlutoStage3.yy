@@ -2,7 +2,7 @@
 {
     "name": "PlutoStage3",
     "id": "8aa89eac-0ca4-434a-9b42-1b88b6d44eee",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
