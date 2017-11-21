@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "8aa89eac-0ca4-434a-9b42-1b88b6d44eee",
+            "Value": {
+                "id": "cdbb0797-def8-46e4-9f8f-4f665782a5f1",
+                "resourcePath": "rooms\\PlutoStage3\\PlutoStage3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8e3936a2-a30a-4ea0-bc17-ca64a6045752",
             "Value": {
                 "id": "b9f5390d-41dc-4b0b-bc21-97bff424e41c",
