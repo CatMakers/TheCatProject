@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "46373658-27bc-4c55-b5b2-34b597ed1b0d",
+            "Value": {
+                "id": "ebc2be9d-28f9-4480-a061-316d5765a6c6",
+                "resourcePath": "objects\\Uranus\\Uranus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ffcc720-0861-48ae-8219-2334cf7701b4",
             "Value": {
                 "id": "fcd76fab-bc32-4819-89af-5f30243bd8d5",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "bef72985-5168-4905-b3d3-880ac0a895ff",
+            "Value": {
+                "id": "51a48ea3-1a88-447d-b719-794390663a22",
+                "resourcePath": "sprites\\UranusAttackSprite\\UranusAttackSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c2814e0d-dc1e-4fb5-928f-b134b350d7c5",
             "Value": {
                 "id": "3e9deed9-22d8-4934-b77b-a21a366e981f",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "ddd0565b-e0ad-4ef0-a94f-5efac6bb9571",
+            "Value": {
+                "id": "47dd0928-ecf3-423a-ad25-cdcc6a3de8d2",
+                "resourcePath": "rooms\\UranusBoss\\UranusBoss.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "de8f2384-f178-4626-9e73-ec143f6bf2bd",
             "Value": {
                 "id": "8c325955-22d4-4093-8885-b250646c7860",
@@ -356,6 +380,14 @@
                 "id": "e274c5c3-1c5a-4b5b-8865-8fe8ef32960c",
                 "resourcePath": "views\\ea718cb8-613a-4795-9c62-006724975517.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2010761-50c6-4281-9183-6b71f20a96a4",
+            "Value": {
+                "id": "6085bb5f-abbb-469d-be55-b91ce7840a1b",
+                "resourcePath": "sprites\\UranusMovementSprite\\UranusMovementSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
