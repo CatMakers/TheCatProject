@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "1bf946bc-8cfa-44ed-8233-9719b6327eef",
-            "Value": {
-                "id": "eedac790-d86f-425e-98be-f7ff80ef701e",
-                "resourcePath": "sprites\\sprite11\\sprite11.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2c971943-19c8-437a-9b82-e48af4726941",
             "Value": {
                 "id": "a191d462-cedd-4528-8dcd-00fcd12019bd",
@@ -183,6 +175,14 @@
             }
         },
         {
+            "Key": "851c6fcb-833a-4676-855a-b1499b107c05",
+            "Value": {
+                "id": "7d5da6ea-2b58-4f5e-aa00-5107016b68b7",
+                "resourcePath": "objects\\Uranus_Projectile_1\\Uranus_Projectile_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8aa89eac-0ca4-434a-9b42-1b88b6d44eee",
             "Value": {
                 "id": "cdbb0797-def8-46e4-9f8f-4f665782a5f1",
@@ -235,6 +235,14 @@
             "Value": {
                 "id": "ad6a1848-b84b-442a-b52c-6c2113fde618",
                 "resourcePath": "sprites\\topLeftCornerTemp\\topLeftCornerTemp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a20e8f52-bb4e-4e57-990c-06336f03538d",
+            "Value": {
+                "id": "7df5d3b3-d1bd-4e5e-b029-96bdd96e7eda",
+                "resourcePath": "sprites\\Uranus_projetile_1_sprite\\Uranus_projetile_1_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
