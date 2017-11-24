@@ -162,7 +162,15 @@
             "Key": "6882363e-2033-4485-89f9-c57657205587",
             "Value": {
                 "id": "6ada0cf6-a9e7-4913-a0a3-f3f0b2406532",
-                "resourcePath": "sprites\\sprite14\\sprite14.yy",
+                "resourcePath": "sprites\\Uranus_projectile_2_1_sprite\\Uranus_projectile_2_1_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6af3bf1c-85da-4770-aa23-228ad73683ec",
+            "Value": {
+                "id": "d41b1152-f331-4e9b-a161-8be0ef583c10",
+                "resourcePath": "sprites\\Uranus_projectile_2_3_sprite\\Uranus_projectile_2_3_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -268,6 +276,14 @@
                 "id": "310afd91-c7e9-4745-9cbb-7a4687963f05",
                 "resourcePath": "views\\a26fdd7d-c0e9-4330-b215-b363d8f87ea7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a8d26c3a-6c71-4c74-b924-967c9b8ba4da",
+            "Value": {
+                "id": "c7353a1d-7b82-4322-b20c-3f65cc97be66",
+                "resourcePath": "sprites\\Uranus_projectile_2_2_sprite\\Uranus_projectile_2_2_sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

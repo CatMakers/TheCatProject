@@ -2,7 +2,7 @@
     "id": "6882363e-2033-4485-89f9-c57657205587",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite14",
+    "name": "Uranus_projectile_2_1_sprite",
     "For3D": false,
     "HTile": false,
     "VTile": false,

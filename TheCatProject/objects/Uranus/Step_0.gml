@@ -19,7 +19,7 @@ if(last_attack_timer > 3000000)
 	last_attack_timer-=3000000;
 	sprite_index = UranusAttackSprite
 	
-	if(value < 0)
+	if(value < 0.5)
 	{
 		spd = 10;
 		
