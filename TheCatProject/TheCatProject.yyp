@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "13e5c58c-da8c-4b42-87e3-c6f7d81f1b91",
+            "Value": {
+                "id": "8dc4db73-fffd-49fa-982c-424a4184592c",
+                "resourcePath": "sprites\\spr_trident\\spr_trident.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2445fcf4-6009-4a57-8610-6f8c8e10348d",
             "Value": {
                 "id": "4c35700b-e1d1-4aff-bef6-f352ad8d775e",
@@ -127,11 +135,27 @@
             }
         },
         {
+            "Key": "45f4baaa-42fc-43d6-9611-5a4b34da6d2c",
+            "Value": {
+                "id": "8df50901-8412-4280-ac52-fe4a253bea83",
+                "resourcePath": "objects\\obj_Trident\\obj_Trident.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "46373658-27bc-4c55-b5b2-34b597ed1b0d",
             "Value": {
                 "id": "ebc2be9d-28f9-4480-a061-316d5765a6c6",
                 "resourcePath": "objects\\Uranus\\Uranus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4c4c3d50-244c-4fb3-8468-000f3afc275c",
+            "Value": {
+                "id": "8fd8a840-602f-4bc7-8726-11b53dc6e872",
+                "resourcePath": "rooms\\NeptuneBoss\\NeptuneBoss.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -148,6 +172,14 @@
                 "id": "80f283c1-13c8-4afc-a88c-69a95309f17f",
                 "resourcePath": "views\\546d3abc-990d-41ec-95b3-e265291f9958.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5f5a59a5-c615-4e64-b88d-1f77609e75a5",
+            "Value": {
+                "id": "84976cd0-fed4-4fb0-ba2b-189f77f10551",
+                "resourcePath": "objects\\obj_NeptuneBoss\\obj_NeptuneBoss.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -183,6 +215,14 @@
             }
         },
         {
+            "Key": "7b48a5ee-a7ff-4547-917f-4e013c1d2e4e",
+            "Value": {
+                "id": "8cede3c6-4ffc-48f3-b138-499ca1335c12",
+                "resourcePath": "sprites\\spr_NeptuneBoss\\spr_NeptuneBoss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d7a2dc7-bdc0-412b-8052-d21534c4a46d",
             "Value": {
                 "id": "4937a9d3-8cbe-4979-a9b1-9c41bf2fa16d",
@@ -210,7 +250,7 @@
             "Key": "8aa89eac-0ca4-434a-9b42-1b88b6d44eee",
             "Value": {
                 "id": "cdbb0797-def8-46e4-9f8f-4f665782a5f1",
-                "resourcePath": "rooms\\PlutoStage3\\PlutoStage3.yy",
+                "resourcePath": "rooms\\NeptuneStage3\\NeptuneStage3.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -236,6 +276,14 @@
                 "id": "0a561840-463f-4cb7-b829-4454a504db4c",
                 "resourcePath": "views\\903e57a4-2ec3-479d-8652-7616551d016a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "95dd4616-e149-482e-b815-73edba45e349",
+            "Value": {
+                "id": "a74d688d-b0a9-4db5-a614-5bd01e07ad06",
+                "resourcePath": "sprites\\spr_Storm\\spr_Storm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +343,14 @@
             }
         },
         {
+            "Key": "aa816cd1-7b68-40f3-af25-3263fae6a432",
+            "Value": {
+                "id": "1050f30f-61d7-4321-a896-4063b0bd4e18",
+                "resourcePath": "sprites\\tiles2\\tiles2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b42b5eb5-c16c-494f-a824-cfe8093beac7",
             "Value": {
                 "id": "f055530d-551a-410c-ac32-ba76ae26c3fc",
@@ -324,6 +380,14 @@
                 "id": "89efdd05-b8bd-4350-a44e-15aa093e5971",
                 "resourcePath": "sprites\\middleRightTemp\\middleRightTemp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be82e86e-7bfb-4845-b4d2-a8d0ff5887dd",
+            "Value": {
+                "id": "22a54261-9426-4abc-90bf-87a7a30d6170",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -411,6 +475,14 @@
             "Value": {
                 "id": "8c325955-22d4-4093-8885-b250646c7860",
                 "resourcePath": "objects\\bottomRightCornerObj\\bottomRightCornerObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e521fa41-d7f0-4016-b03b-a3df43475857",
+            "Value": {
+                "id": "42f12b31-6c72-4110-8ee4-384d36b2bf15",
+                "resourcePath": "objects\\obj_Storm\\obj_Storm.yy",
                 "resourceType": "GMObject"
             }
         },
