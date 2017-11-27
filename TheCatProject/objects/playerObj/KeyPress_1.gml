@@ -1,6 +1,6 @@
 if(self.speed == 0)
 {
-	if(room == PlutoStage2 || PlutoStage3 || PlutoStage1)
+	if(room == NeptuneStage2 || NeptuneStage3 || NeptuneStage1 || NeptuneBoss)
 	{
 		var moveup;
 		moveup = keyboard_check_pressed(vk_up);
