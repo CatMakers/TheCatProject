@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "28b3143f-2d94-4a56-97e6-ab118c54d76c",
+            "Value": {
+                "id": "60e91614-6f6d-4e45-930b-b93da02f650c",
+                "resourcePath": "objects\\genObject\\genObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d595703-ebcb-4fb0-878d-e5d0c8117c1b",
             "Value": {
                 "id": "5f239ce8-bcc2-4984-9c6b-cd13f37ed76d",
@@ -196,6 +204,14 @@
                 "id": "cdbb0797-def8-46e4-9f8f-4f665782a5f1",
                 "resourcePath": "rooms\\NeptuneStage3\\NeptuneStage3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8bd631d3-da34-453f-821c-c5b535d40eb6",
+            "Value": {
+                "id": "85225e97-a980-4697-be03-0348fda46285",
+                "resourcePath": "sprites\\genSprite\\genSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
