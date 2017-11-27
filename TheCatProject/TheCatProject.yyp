@@ -39,22 +39,6 @@
             }
         },
         {
-            "Key": "07efcfcd-178e-4e6e-bba4-4f2886d39d3f",
-            "Value": {
-                "id": "9ad74c4a-4b83-4daa-a54b-9e65f89217b4",
-                "resourcePath": "objects\\WallObstacleObj\\WallObstacleObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "10e46644-c22d-45cf-b40e-862ddfdc0e78",
-            "Value": {
-                "id": "b29acc1b-2244-42e2-8889-4e24ea54b122",
-                "resourcePath": "sprites\\midWallChunkTemp\\midWallChunkTemp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "13e5c58c-da8c-4b42-87e3-c6f7d81f1b91",
             "Value": {
                 "id": "8dc4db73-fffd-49fa-982c-424a4184592c",
@@ -63,18 +47,18 @@
             }
         },
         {
+            "Key": "20fda92d-2b9a-4984-bc56-59919b9856e2",
+            "Value": {
+                "id": "7b964806-b4c9-4647-bd88-743dd5cf80b5",
+                "resourcePath": "sprites\\telesetTemp\\telesetTemp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2445fcf4-6009-4a57-8610-6f8c8e10348d",
             "Value": {
                 "id": "4c35700b-e1d1-4aff-bef6-f352ad8d775e",
                 "resourcePath": "objects\\Uranus_Projectile_2\\Uranus_Projectile_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "2c971943-19c8-437a-9b82-e48af4726941",
-            "Value": {
-                "id": "a191d462-cedd-4528-8dcd-00fcd12019bd",
-                "resourcePath": "objects\\bottomMidObj\\bottomMidObj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -103,18 +87,10 @@
             }
         },
         {
-            "Key": "3604cd76-3772-4dff-a6fc-b4054f53a25e",
-            "Value": {
-                "id": "bacfadcf-de8e-40a7-9097-420710e05f6c",
-                "resourcePath": "sprites\\topMiddleTemp\\topMiddleTemp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "376c9fec-4e96-47b1-8490-abd3a3f2ed1b",
             "Value": {
                 "id": "7cb035fd-f318-420a-b6fe-d0d15e7669a4",
-                "resourcePath": "rooms\\PlutoStage1\\PlutoStage1.yy",
+                "resourcePath": "rooms\\NeptuneStage1\\NeptuneStage1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -123,14 +99,6 @@
             "Value": {
                 "id": "7cb6615a-4aa2-45f1-aa29-568564cb19e8",
                 "resourcePath": "objects\\playerObj\\playerObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4594299d-35fc-4712-b3f9-fee0d5909127",
-            "Value": {
-                "id": "8769e284-5b3e-4dc9-9e57-a45fc1cf36b1",
-                "resourcePath": "objects\\leftMidObj\\leftMidObj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -159,14 +127,6 @@
             }
         },
         {
-            "Key": "4ffcc720-0861-48ae-8219-2334cf7701b4",
-            "Value": {
-                "id": "fcd76fab-bc32-4819-89af-5f30243bd8d5",
-                "resourcePath": "objects\\topMiddleObj\\topMiddleObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "546d3abc-990d-41ec-95b3-e265291f9958",
             "Value": {
                 "id": "80f283c1-13c8-4afc-a88c-69a95309f17f",
@@ -179,14 +139,6 @@
             "Value": {
                 "id": "84976cd0-fed4-4fb0-ba2b-189f77f10551",
                 "resourcePath": "objects\\obj_NeptuneBoss\\obj_NeptuneBoss.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "63b557d3-0fce-400a-b6c7-5138581f9ec7",
-            "Value": {
-                "id": "f4729d55-c3ff-433d-946d-af6548634c4c",
-                "resourcePath": "objects\\RightMidObj\\RightMidObj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -215,27 +167,19 @@
             }
         },
         {
+            "Key": "70b42e92-a803-43b3-9626-ca442d0122d0",
+            "Value": {
+                "id": "8b31fa3a-b98c-4083-9b00-c7399ca119af",
+                "resourcePath": "tilesets\\teileSetTemp\\teileSetTemp.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "7b48a5ee-a7ff-4547-917f-4e013c1d2e4e",
             "Value": {
                 "id": "8cede3c6-4ffc-48f3-b138-499ca1335c12",
                 "resourcePath": "sprites\\spr_NeptuneBoss\\spr_NeptuneBoss.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7d7a2dc7-bdc0-412b-8052-d21534c4a46d",
-            "Value": {
-                "id": "4937a9d3-8cbe-4979-a9b1-9c41bf2fa16d",
-                "resourcePath": "sprites\\topRightCornerTemp\\topRightCornerTemp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "81bb7db1-1c22-4df7-9c49-39ef75bb5e87",
-            "Value": {
-                "id": "ec3afd3e-5d14-473d-8da5-4949ef2fa0fd",
-                "resourcePath": "objects\\topRightCornerObj\\topRightCornerObj.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -252,14 +196,6 @@
                 "id": "cdbb0797-def8-46e4-9f8f-4f665782a5f1",
                 "resourcePath": "rooms\\NeptuneStage3\\NeptuneStage3.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "8e3936a2-a30a-4ea0-bc17-ca64a6045752",
-            "Value": {
-                "id": "b9f5390d-41dc-4b0b-bc21-97bff424e41c",
-                "resourcePath": "sprites\\bottomMidTemp\\bottomMidTemp.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,22 +228,6 @@
                 "id": "1873a042-f0dd-4329-bace-1b4d6045859a",
                 "resourcePath": "views\\9d0b4219-6e02-4dd7-a771-ddce55439b30.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a03bd905-146f-417b-8015-8a26756c06cb",
-            "Value": {
-                "id": "3d002ead-4b8f-45b9-821f-2904021fb682",
-                "resourcePath": "sprites\\bottomLeftCornerTemp\\bottomLeftCornerTemp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a05c1ce0-53e6-4647-a481-f8772e7c809d",
-            "Value": {
-                "id": "ad6a1848-b84b-442a-b52c-6c2113fde618",
-                "resourcePath": "sprites\\topLeftCornerTemp\\topLeftCornerTemp.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -359,27 +279,11 @@
             }
         },
         {
-            "Key": "b49328e9-0ae7-4f80-9d2e-466154e96a06",
-            "Value": {
-                "id": "1afb2f8a-1055-4b37-b5c3-fe93e40061df",
-                "resourcePath": "objects\\topLeftCornerObj\\topLeftCornerObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b94d0603-458d-4961-ac98-a3c6e8c946ee",
             "Value": {
                 "id": "7579bff5-ffc0-4152-ac7c-c607a2e73c15",
                 "resourcePath": "views\\b94d0603-458d-4961-ac98-a3c6e8c946ee.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "bb3938f8-8ad1-491a-a94a-ead9ab0eb0d6",
-            "Value": {
-                "id": "89efdd05-b8bd-4350-a44e-15aa093e5971",
-                "resourcePath": "sprites\\middleRightTemp\\middleRightTemp.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,14 +319,6 @@
             }
         },
         {
-            "Key": "ce0edb3f-bd38-41d8-8e10-6be96cd0361e",
-            "Value": {
-                "id": "95bce184-633d-4dca-bfd1-e0298b8f4ccb",
-                "resourcePath": "objects\\bottomLeftCornerObj\\bottomLeftCornerObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d70c2940-6190-4b1a-a546-959ddf5a078c",
             "Value": {
                 "id": "2a69fd2a-5a41-4589-9959-850cb6c21994",
@@ -434,7 +330,7 @@
             "Key": "d8bf851d-0125-4813-9f19-b0295c846159",
             "Value": {
                 "id": "9dc413b7-4a37-4535-94cd-4aa5c62f73eb",
-                "resourcePath": "rooms\\PlutoStage2\\PlutoStage2.yy",
+                "resourcePath": "rooms\\NeptuneStage2\\NeptuneStage2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -468,14 +364,6 @@
                 "id": "47dd0928-ecf3-423a-ad25-cdcc6a3de8d2",
                 "resourcePath": "rooms\\UranusBoss\\UranusBoss.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "de8f2384-f178-4626-9e73-ec143f6bf2bd",
-            "Value": {
-                "id": "8c325955-22d4-4093-8885-b250646c7860",
-                "resourcePath": "objects\\bottomRightCornerObj\\bottomRightCornerObj.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -516,22 +404,6 @@
                 "id": "34964610-0835-4949-b986-d733be9cbf7e",
                 "resourcePath": "views\\f81c725d-7ef7-4544-adc2-23ecb8d75e07.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f9034d75-048a-4fd1-b94f-c2f67c7361a4",
-            "Value": {
-                "id": "bc6fe16f-cfc8-4090-b72a-dfae9a0cbcd3",
-                "resourcePath": "sprites\\bottomRightCornerTemp\\bottomRightCornerTemp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "faa4e043-fff5-4a7f-bc81-571436a738df",
-            "Value": {
-                "id": "c287328d-1ec3-4abd-bce3-d2e187f008d6",
-                "resourcePath": "sprites\\middleLeftTemp\\middleLeftTemp.yy",
-                "resourceType": "GMSprite"
             }
         }
     ],

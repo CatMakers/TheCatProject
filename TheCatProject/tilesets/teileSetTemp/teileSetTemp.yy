@@ -1,8 +1,8 @@
 {
-    "id": "be82e86e-7bfb-4845-b4d2-a8d0ff5887dd",
+    "id": "70b42e92-a803-43b3-9626-ca442d0122d0",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset0",
+    "name": "teileSetTemp",
     "auto_tile_sets": [
         
     ],
@@ -26,9 +26,9 @@
         ]
     },
     "out_columns": 3,
-    "out_tilehborder": 2,
-    "out_tilevborder": 2,
-    "spriteId": "aa816cd1-7b68-40f3-af25-3263fae6a432",
+    "out_tilehborder": 0,
+    "out_tilevborder": 0,
+    "spriteId": "20fda92d-2b9a-4984-bc56-59919b9856e2",
     "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {
