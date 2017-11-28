@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "8d3c350f-41cc-431c-9087-bc51df34dd60",
+            "Value": {
+                "id": "c7de9a16-8d70-4b92-b390-b61137f3b6bc",
+                "resourcePath": "objects\\obj_roomTrigger\\obj_roomTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f99629b-ec72-490d-ba34-aac9dedea3f3",
             "Value": {
                 "id": "d143719b-8ee5-42b0-9052-c84b9e5f8ee1",
