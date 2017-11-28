@@ -6,28 +6,28 @@ if(self.speed == 0)
 		moveup = keyboard_check_pressed(vk_up);
 		if (moveup)
 		{
-			vspeed = -4;
+			vspeed = -8;
 		}
 	
 		var movedown;
 		movedown = keyboard_check_pressed(vk_down);
 		if (movedown)
 		{
-			vspeed = 4;
+			vspeed = 8;
 		}
 	
 		var moveleft;
 		moveleft = keyboard_check_pressed(vk_left);
 		if (moveleft)
 		{
-			hspeed = -4;
+			hspeed = -8;
 		}
 	
 		var moveright;
 		with(playerObj) moveright = keyboard_check_pressed(vk_right);
 		if (moveright)
 		{
-			hspeed = 4;
+			hspeed = 8;
 		}
 	}
 }
