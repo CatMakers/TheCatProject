@@ -2,13 +2,15 @@
 // You can write your code in this editor
 
 show_debug_message(y);
-if(y-sprite_height/2<0)
+if(x-abs(sprite_width)/2<0)
 {
 	speed = -speed;
+	image_xscale *= -1;
 }
-else if(y+sprite_height/2>room_height)
+else if(x+abs(sprite_width)/2>room_width)
 {
 	speed=-speed;
+	image_xscale *= -1;
 }
 
 value = random_range(0,1);
@@ -24,15 +26,15 @@ if(last_attack_timer > 3000000)
 		spd = 10;
 		
 		inst = instance_create_layer(x,y,"Projectiles",Uranus_Projectile_1);
-		inst.direction = 180;
+		inst.direction = 90;
+		inst.speed = spd;
+		
+		inst = instance_create_layer(x,y,"Projectiles",Uranus_Projectile_1);
+		inst.direction = 45;
 		inst.speed = spd;
 		
 		inst = instance_create_layer(x,y,"Projectiles",Uranus_Projectile_1);
 		inst.direction = 135;
-		inst.speed = spd;
-		
-		inst = instance_create_layer(x,y,"Projectiles",Uranus_Projectile_1);
-		inst.direction = 225;
 		inst.speed = spd;
 	}
 	else if(value < 1)

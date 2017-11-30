@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "b9299c02-28f6-4439-9b7d-fbdffa77ddae",
+            "Value": {
+                "id": "1c1d8c3b-5e18-4704-b8df-b595451c47a0",
+                "resourcePath": "objects\\ground_trigger\\ground_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b94d0603-458d-4961-ac98-a3c6e8c946ee",
             "Value": {
                 "id": "7579bff5-ffc0-4152-ac7c-c607a2e73c15",
