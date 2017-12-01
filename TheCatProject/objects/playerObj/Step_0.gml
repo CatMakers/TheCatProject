@@ -4,17 +4,18 @@ if(mHealth <= 0)
 	game_restart();
 }
 
-if (!place_meeting(x, y+1, genObject))
-{
-	gravity = .5;
-}
-else
-{
-	gravity = 0;
-	jumping = false;
-}
 
-if(room == UranusStage1 || UranusBoss){
+if(room == UranusStage1 || room == UranusBoss){
+	if (!place_meeting(x, y+1, genObject))
+	{
+		gravity = .5;
+	}
+	else
+	{
+		gravity = 0;
+		jumping = false;
+	}
+	
 	if(keyboard_check(vk_right)){
 		hspeed = 8;	
 	}

@@ -1,5 +1,5 @@
 if(self.speed == 0){
-	if(room == (NeptuneStage2 || NeptuneStage3 || NeptuneStage1 || NeptuneBoss)){
+	if(room == NeptuneStage2 || room == NeptuneStage3 || room == NeptuneStage1 || room == NeptuneBoss){
 		var moveup;
 		moveup = keyboard_check_pressed(vk_up);
 		if (moveup){
