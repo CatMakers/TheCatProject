@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03e015fa-fd71-4c0b-9f83-dcc331bf8fdf",
+            "Value": {
+                "id": "2ddfad14-f21e-4ab4-aa2d-b1aa72c1815c",
+                "resourcePath": "rooms\\UranusStage1\\UranusStage1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "06a9fb90-5416-4639-ac78-1badba3ed105",
             "Value": {
                 "id": "43b4595f-8235-436d-9f2f-095a65bc0569",
