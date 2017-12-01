@@ -8,7 +8,7 @@ if(mHealth <= 0)
 if(room == UranusStage1 || room == UranusBoss){
 	if (!place_meeting(x, y+1, genObject))
 	{
-		gravity = .5;
+		gravity = .4;
 	}
 	else
 	{
