@@ -2,7 +2,7 @@
 {
     "name": "NeptuneStage1",
     "id": "376c9fec-4e96-47b1-8490-abd3a3f2ed1b",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
