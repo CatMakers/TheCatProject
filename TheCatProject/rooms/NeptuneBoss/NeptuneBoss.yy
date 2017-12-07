@@ -2,7 +2,7 @@
 {
     "name": "NeptuneBoss",
     "id": "4c4c3d50-244c-4fb3-8468-000f3afc275c",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

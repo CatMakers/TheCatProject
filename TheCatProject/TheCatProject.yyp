@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "35341e45-96c7-4dd2-a26e-cff7799b7961",
+            "Value": {
+                "id": "9c11969f-1630-4799-bcc9-0daee1545020",
+                "resourcePath": "rooms\\GameOver\\GameOver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "35e936ed-fcb0-42b8-aba2-8b1fcfe50c7f",
             "Value": {
                 "id": "f6479ab4-605d-4507-81fc-b4a8f3a2dcf5",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "98e1a9c8-717a-4d2d-aa17-8f59b6c51f62",
+            "Value": {
+                "id": "8bbeece2-eefb-4f37-aaac-45716aa328fa",
+                "resourcePath": "rooms\\LevelSelect\\LevelSelect.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9d0b4219-6e02-4dd7-a771-ddce55439b30",
             "Value": {
                 "id": "1873a042-f0dd-4329-bace-1b4d6045859a",
@@ -324,6 +340,14 @@
                 "id": "7579bff5-ffc0-4152-ac7c-c607a2e73c15",
                 "resourcePath": "views\\b94d0603-458d-4961-ac98-a3c6e8c946ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb6622eb-f061-44c3-915d-5d428fdb164a",
+            "Value": {
+                "id": "7382aedc-97f6-49cd-9f02-3d1807da0778",
+                "resourcePath": "sounds\\NeptuneStages\\NeptuneStages.yy",
+                "resourceType": "GMSound"
             }
         },
         {
