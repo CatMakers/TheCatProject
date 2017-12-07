@@ -23,5 +23,9 @@ if(self.speed == 0){
 		if (moveright){
 			hspeed = 8;
 		}
+		if(keyboard_check_pressed(vk_space)&mVulnearable){
+			shieldObject.visible = true;
+			mVulnearable = false;
+		}
 	}
 }

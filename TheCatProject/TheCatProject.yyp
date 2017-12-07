@@ -50,7 +50,7 @@
             "Key": "1246de92-f959-4b18-abc7-5e9d88a1ce62",
             "Value": {
                 "id": "f6b15423-cff4-4cf2-8eab-076c0db5ee6a",
-                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourcePath": "sprites\\playerSprite\\playerSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -156,6 +156,14 @@
                 "id": "8fd8a840-602f-4bc7-8726-11b53dc6e872",
                 "resourcePath": "rooms\\NeptuneBoss\\NeptuneBoss.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "51235169-3b17-4672-8852-46ebc67f9d6e",
+            "Value": {
+                "id": "06ec6f7e-8f39-4391-9e36-7b2b3ad4504f",
+                "resourcePath": "sprites\\shieldSprite\\shieldSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -276,6 +284,14 @@
                 "id": "1873a042-f0dd-4329-bace-1b4d6045859a",
                 "resourcePath": "views\\9d0b4219-6e02-4dd7-a771-ddce55439b30.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f084e48-4068-4c3a-8fa6-ba06efef6447",
+            "Value": {
+                "id": "25c93b7c-447a-42b7-b67f-fef24e301033",
+                "resourcePath": "objects\\shieldObject\\shieldObject.yy",
+                "resourceType": "GMObject"
             }
         },
         {

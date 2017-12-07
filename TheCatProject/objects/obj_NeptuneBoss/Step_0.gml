@@ -21,7 +21,9 @@ else if(y+sprite_height/2>room_height)
 	speed=-speed;
 }
 
-
+if(HP<=0){
+	instance_destroy(); 
+}
 
 value = random_range(0,1);
 attacktimer = attacktimer + delta_time
