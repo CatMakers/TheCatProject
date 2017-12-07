@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03e015fa-fd71-4c0b-9f83-dcc331bf8fdf",
+            "Value": {
+                "id": "2ddfad14-f21e-4ab4-aa2d-b1aa72c1815c",
+                "resourcePath": "rooms\\UranusStage1\\UranusStage1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "06a9fb90-5416-4639-ac78-1badba3ed105",
             "Value": {
                 "id": "43b4595f-8235-436d-9f2f-095a65bc0569",
@@ -92,6 +100,14 @@
                 "id": "6ac3c1f8-26e8-48f0-bab8-be0d2b3d8f1b",
                 "resourcePath": "views\\2f2a98d6-4982-4ab1-993a-618ddc31adc4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35341e45-96c7-4dd2-a26e-cff7799b7961",
+            "Value": {
+                "id": "9c11969f-1630-4799-bcc9-0daee1545020",
+                "resourcePath": "rooms\\GameOver\\GameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "98e1a9c8-717a-4d2d-aa17-8f59b6c51f62",
+            "Value": {
+                "id": "8bbeece2-eefb-4f37-aaac-45716aa328fa",
+                "resourcePath": "rooms\\LevelSelect\\LevelSelect.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9d0b4219-6e02-4dd7-a771-ddce55439b30",
             "Value": {
                 "id": "1873a042-f0dd-4329-bace-1b4d6045859a",
@@ -316,6 +340,14 @@
                 "id": "7579bff5-ffc0-4152-ac7c-c607a2e73c15",
                 "resourcePath": "views\\b94d0603-458d-4961-ac98-a3c6e8c946ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bb6622eb-f061-44c3-915d-5d428fdb164a",
+            "Value": {
+                "id": "7382aedc-97f6-49cd-9f02-3d1807da0778",
+                "resourcePath": "sounds\\NeptuneStages\\NeptuneStages.yy",
+                "resourceType": "GMSound"
             }
         },
         {
