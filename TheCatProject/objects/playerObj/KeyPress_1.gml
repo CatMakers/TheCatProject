@@ -23,9 +23,12 @@ if(self.speed == 0){
 		if (moveright){
 			hspeed = 8;
 		}
-		if(keyboard_check_pressed(vk_space)&mVulnearable){
+		var shield;
+		shield = keyboard_check_pressed(vk_space);
+		if(shield && mVulnearable){
 			shieldObject.visible = true;
 			mVulnearable = false;
+			alarm[1]= .3 *(delta_time - ot );
 		}
 	}
 }

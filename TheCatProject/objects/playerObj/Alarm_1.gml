@@ -1,2 +1,2 @@
-
-shielded = false;
+mVulnearable = true;
+shieldObject.visible = false;

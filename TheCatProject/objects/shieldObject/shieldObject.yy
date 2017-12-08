@@ -5,7 +5,7 @@
     "name": "shieldObject",
     "eventList": [
         {
-            "id": "ca64334c-1f32-466d-a4f5-237af6feab19",
+            "id": "4ab2aa17-8812-45fa-b3ea-2465b2d175de",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,17 +15,17 @@
             "m_owner": "9f084e48-4068-4c3a-8fa6-ba06efef6447"
         },
         {
-            "id": "364ef105-a8a3-44a9-9fca-e15d4a9d1463",
+            "id": "ec894b94-ee84-4e51-8077-785efacc33ea",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "28b3143f-2d94-4a56-97e6-ab118c54d76c",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "9f084e48-4068-4c3a-8fa6-ba06efef6447"
         },
         {
-            "id": "3eea6cd6-bd6a-490b-9c37-c11e44eb424c",
+            "id": "5c40a85a-c86c-4be3-8365-4da88c854b98",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

@@ -36,8 +36,4 @@ if(room == UranusStage1 || room == UranusBoss){
 		jumping = true;
 	}
 }
-if(shieldObject.visible && !mVulnearable){
-	alarm[1]= 20;
-	mVulnearable = true;
-	shieldObject.visible = false;
-}
+ ot = delta_time
