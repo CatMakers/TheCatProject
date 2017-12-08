@@ -28,7 +28,7 @@ if(self.speed == 0){
 		if(shield && mVulnearable){
 			shieldObject.visible = true;
 			mVulnearable = false;
-			alarm[1]= .3 *(delta_time - ot );
+			//alarm[1]= .3 *(delta_time - ot );
 		}
 	}
 }

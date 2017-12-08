@@ -36,4 +36,12 @@ if(room == UranusStage1 || room == UranusBoss){
 		jumping = true;
 	}
 }
- ot = delta_time
+if(shieldObject.visible ){
+	ot += delta_time;
+}
+if(ot >2000000){
+	ot = 0;
+	mVulnearable = true;
+	shieldObject.visible = false;
+ }
+ 
