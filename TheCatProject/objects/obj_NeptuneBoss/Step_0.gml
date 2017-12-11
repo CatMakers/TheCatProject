@@ -2,13 +2,28 @@
 // NeptuneBoss Moving and shooting
 
 movetimer = movetimer + delta_time;
-randdown = random_range(-15,-5);
-randup = random_range(5,15);
+randdown = random_range(-15,11);
+randup = random_range(11,15);
+
+pc = (HP / 24) * 100;
+
+col = b|g|r;
+
+
+var hurt;
+hurt = keyboard_check_pressed(vk_numpad0);
+if (hurt){
+	HP -= 4;
+	g= g*pc/100;
+	b = b*pc/100;
+}
 
 if(movetimer >5000000){
 	speed = random_range(randdown, randup);
 	movetimer -= 5000000;
 }
+
+
 
 if(y-sprite_height/2<0)
 {	

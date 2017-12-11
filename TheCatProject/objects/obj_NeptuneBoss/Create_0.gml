@@ -2,7 +2,14 @@
 // You can write your code in this editor
 
 
-HP = 20
+HP = 24;
+var pc;
+
+b = $ff0000;
+g = $00ff00;
+r = $0000ff;
+
+col = b|g|r;
 
 speed = 9;
 attacktimer = 0.0;
