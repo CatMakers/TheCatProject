@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-hspeed = -hspeed;
-self.image_xscale *= -1;
+if(isReflected == false){
+	hspeed = -hspeed;
+	self.image_xscale *= -1;
+	isReflected = true;
+}
