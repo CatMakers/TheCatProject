@@ -1,3 +1,4 @@
+
 if(self.speed == 0){
 	if(room == NeptuneStage2 || room == NeptuneStage3 || room == NeptuneStage1 || room == NeptuneBoss){
 		var moveup;
@@ -32,3 +33,6 @@ if(self.speed == 0){
 		}
 	}
 }
+
+
+
