@@ -2,7 +2,7 @@
 {
     "name": "UranusStage1",
     "id": "03e015fa-fd71-4c0b-9f83-dcc331bf8fdf",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
