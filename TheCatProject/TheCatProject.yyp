@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1623c76a-64a3-4b10-ac2c-b41f35d301b9",
+            "Value": {
+                "id": "5aa73850-284a-4170-a796-bdcfcfd2ccb5",
+                "resourcePath": "sounds\\NeptuneBossMusic\\NeptuneBossMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "20fda92d-2b9a-4984-bc56-59919b9856e2",
             "Value": {
                 "id": "7b964806-b4c9-4647-bd88-743dd5cf80b5",

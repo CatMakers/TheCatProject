@@ -41,11 +41,17 @@ else if(y+sprite_height/2>room_height)
 }
 
 if(HP<=0){
+	self.visible = false;
+	attacktimer = 0;
+	deathtimer+=delta_time;
+}
+if(deathtimer > 3000000){
 	instance_destroy(); 
+	room_goto_next();
 }
 
 value = random_range(0,1);
-attacktimer = attacktimer + delta_time
+attacktimer = attacktimer + delta_time;
 
 if(attacktimer >400000)
 {
