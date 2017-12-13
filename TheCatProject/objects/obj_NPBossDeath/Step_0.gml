@@ -7,5 +7,10 @@ if(self.visible){
 		image_xscale *= .7;
 		image_yscale *= .7;
 	}
+	deathtimer+=delta_time;
 }
 
+if(deathtimer > 3000000){
+	instance_destroy(); 
+	room_goto_next();
+}
