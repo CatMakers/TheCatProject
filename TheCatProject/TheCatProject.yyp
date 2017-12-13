@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "7cedaacf-07a8-42b4-aee9-9533b6c3fcfe",
+            "Value": {
+                "id": "58bfd1ec-609a-4d51-b625-7e1c6f893210",
+                "resourcePath": "sounds\\NeptuneBossMusicMad\\NeptuneBossMusicMad.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "851c6fcb-833a-4676-855a-b1499b107c05",
             "Value": {
                 "id": "7d5da6ea-2b58-4f5e-aa00-5107016b68b7",

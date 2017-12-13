@@ -24,7 +24,17 @@ if(movetimer >5000000){
 		speed *= 2.3;
 	}
 }
-
+if(HP<=12 && !audio_is_playing(angerSound)){
+	
+	audio_sound_set_track_position(angerSound,16);
+	audio_play_sound(angerSound, 9, true);
+}
+if (audio_is_playing(angerSound)){
+	musictimer+=delta_time;
+}
+if(musictimer > 2000000){
+	audio_stop_sound(NeptuneBossMusic);
+}
 if(y-sprite_height/2<0)
 {	
 	speed = -speed;
@@ -46,9 +56,13 @@ if(HP<=0){
 value = random_range(0,1);
 attacktimer = attacktimer + delta_time;
 
-if(attacktimer >400000)
+timerval = 400000
+if(HP<=12){
+	timerval = 200000;
+}
+if(attacktimer >timerval)
 {
-	attacktimer-=400000;
+	attacktimer-=timerval;
 	
 	if(value < 0.5)
 	{
