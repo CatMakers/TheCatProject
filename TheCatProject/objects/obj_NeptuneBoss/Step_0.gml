@@ -41,7 +41,12 @@ else if(y+sprite_height/2>room_height)
 }
 
 if(HP<=0){
-	instance_destroy(); 
+	//inst = instance_create_layer(x,y,"Boss_Death",obj_NPBossDeath);
+	obj_NPBossDeath.x = x;
+	obj_NPBossDeath.y = y;
+	obj_NPBossDeath.visible = true;
+	
+	instance_destroy();
 }
 
 value = random_range(0,1);

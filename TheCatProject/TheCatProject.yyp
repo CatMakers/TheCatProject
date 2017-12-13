@@ -55,10 +55,26 @@
             }
         },
         {
+            "Key": "0773026f-59e8-4e55-bbd9-9a9994a24616",
+            "Value": {
+                "id": "019dab0e-75bd-4d23-9a3e-39edb581b139",
+                "resourcePath": "sprites\\spr_NPDeath\\spr_NPDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08df2d23-ca4a-4012-8edb-4ed23a1c46dd",
             "Value": {
                 "id": "4d1c50f0-bfd9-4398-943a-13065f7cdc73",
                 "resourcePath": "objects\\uranusButton\\uranusButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "096318f0-b2f7-4df2-a647-54d96160392e",
+            "Value": {
+                "id": "5dce434c-a279-4c94-a225-aef9a46bfe5f",
+                "resourcePath": "objects\\obj_NPBossDeath\\obj_NPBossDeath.yy",
                 "resourceType": "GMObject"
             }
         },
