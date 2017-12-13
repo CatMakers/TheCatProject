@@ -38,7 +38,7 @@ if(room == UranusStage1 || room == UranusBoss){
 }
 var shield;
 shield = keyboard_check_pressed(vk_space);
-if(shield && mVulnearable){
+if(shield && !shieldObject.visible){
 	shieldObject.visible = true;
 	mVulnearable = false;
 }
@@ -51,4 +51,3 @@ if(ot >2000000){
 	mVulnearable = true;
 	shieldObject.visible = false;
  }
- 
