@@ -41,16 +41,26 @@ else if(y+sprite_height/2>room_height)
 }
 
 if(HP<=0){
+<<<<<<< HEAD
 	//inst = instance_create_layer(x,y,"Boss_Death",obj_NPBossDeath);
 	obj_NPBossDeath.x = x;
 	obj_NPBossDeath.y = y;
 	obj_NPBossDeath.visible = true;
 	
 	instance_destroy();
+=======
+	self.visible = false;
+	attacktimer = 0;
+	deathtimer+=delta_time;
+}
+if(deathtimer > 3000000){
+	instance_destroy(); 
+	room_goto_next();
+>>>>>>> 56fdec7154a762a8fcb38cec6e2573484a076386
 }
 
 value = random_range(0,1);
-attacktimer = attacktimer + delta_time
+attacktimer = attacktimer + delta_time;
 
 if(attacktimer >400000)
 {
