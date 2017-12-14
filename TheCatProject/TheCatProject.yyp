@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "37bf4abe-ec58-4648-af67-3c08251f9bbc",
+            "Value": {
+                "id": "9da3495c-3c55-451d-8299-3119840b8dea",
+                "resourcePath": "objects\\obj_SpawnProjectiles\\obj_SpawnProjectiles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3bd92183-1932-4688-b9c6-80589ac2bc92",
             "Value": {
                 "id": "8a504c87-5711-49a6-8724-c31b56345f60",
@@ -380,6 +388,14 @@
                 "id": "6e68a330-24c0-4b5f-b9e4-b746e060cec0",
                 "resourcePath": "sprites\\earthPlain\\earthPlain.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7b1ed994-b4ab-44d4-8c05-3bb75a026fdd",
+            "Value": {
+                "id": "1b0f6282-ccc3-4d1d-ad5f-0f1deb80ba3f",
+                "resourcePath": "rooms\\UranusStage1\\UranusStage1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "b3c4bb6a-4b9d-46bf-b1a5-68da6ada0b61",
+            "Value": {
+                "id": "28708e85-90d6-4148-b9d7-e0cc60f3913d",
+                "resourcePath": "rooms\\UranusStage3\\UranusStage3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b42b5eb5-c16c-494f-a824-cfe8093beac7",
             "Value": {
                 "id": "f055530d-551a-410c-ac32-ba76ae26c3fc",
@@ -652,6 +676,14 @@
                 "id": "860dca80-d22c-4d4d-a1e9-2b0dac800c7b",
                 "resourcePath": "fonts\\font_pause\\font_pause.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "cbe82079-204e-4890-803d-383f3ac01584",
+            "Value": {
+                "id": "6bacac2e-5278-4d0c-85ae-140991046909",
+                "resourcePath": "rooms\\UranusStage2\\UranusStage2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
