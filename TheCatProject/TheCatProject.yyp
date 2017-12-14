@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "27fab392-a071-4e60-a644-9e1f40821001",
+            "Value": {
+                "id": "7eb48bb8-87c7-417b-a492-475313f12123",
+                "resourcePath": "objects\\Uranus_Prokectile_3\\Uranus_Prokectile_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28b3143f-2d94-4a56-97e6-ab118c54d76c",
             "Value": {
                 "id": "60e91614-6f6d-4e45-930b-b93da02f650c",
@@ -555,6 +563,14 @@
             "Value": {
                 "id": "1050f30f-61d7-4321-a896-4063b0bd4e18",
                 "resourcePath": "sprites\\tiles2\\tiles2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b22afd1a-5851-419b-9d5e-7ddd3cdfcc96",
+            "Value": {
+                "id": "cf45f3dd-0800-46f1-964a-4e8e2ed017b8",
+                "resourcePath": "sprites\\Uranus_projectile_3\\Uranus_projectile_3.yy",
                 "resourceType": "GMSprite"
             }
         },
