@@ -62,6 +62,7 @@ if(room == UranusStage1 || room == UranusBoss){
 	//	jumping = true;
 	//}
 }
+<<<<<<< HEAD
 if(room != UranusStage1 && room != UranusBoss){
 	var shield;
 	shield = keyboard_check_pressed(vk_space);
@@ -84,3 +85,20 @@ if(room != UranusStage1 && room != UranusBoss){
 
 
  
+=======
+var shield;
+shield = keyboard_check_pressed(vk_space);
+if(shield && !shieldObject.visible){
+	shieldObject.visible = true;
+	mVulnearable = false;
+}
+
+if(shieldObject.visible ){
+	ot += delta_time;
+}
+if(ot >2000000){
+	ot = 0;
+	mVulnearable = true;
+	shieldObject.visible = false;
+ }
+>>>>>>> 53938b72ea744a6b866217b163a8a2c1d0b03754

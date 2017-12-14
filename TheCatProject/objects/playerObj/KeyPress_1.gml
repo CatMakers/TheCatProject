@@ -1,3 +1,4 @@
+
 if(self.speed == 0){
 	if(room == NeptuneStage2 || room == NeptuneStage3 || room == NeptuneStage1 || room == NeptuneBoss){
 		var moveup;
@@ -21,7 +22,7 @@ if(self.speed == 0){
 		var moveright;
 		moveright = keyboard_check_pressed(vk_right);
 		if (moveright){
-			hspeed = 8;
+			hspeed = 12;
 		}
 		var shield;
 		shield = keyboard_check_pressed(vk_space);
@@ -32,3 +33,6 @@ if(self.speed == 0){
 		}
 	}
 }
+
+
+

@@ -55,10 +55,26 @@
             }
         },
         {
+            "Key": "0773026f-59e8-4e55-bbd9-9a9994a24616",
+            "Value": {
+                "id": "019dab0e-75bd-4d23-9a3e-39edb581b139",
+                "resourcePath": "sprites\\spr_NPDeath\\spr_NPDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08df2d23-ca4a-4012-8edb-4ed23a1c46dd",
             "Value": {
                 "id": "4d1c50f0-bfd9-4398-943a-13065f7cdc73",
                 "resourcePath": "objects\\uranusButton\\uranusButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "096318f0-b2f7-4df2-a647-54d96160392e",
+            "Value": {
+                "id": "5dce434c-a279-4c94-a225-aef9a46bfe5f",
+                "resourcePath": "objects\\obj_NPBossDeath\\obj_NPBossDeath.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -95,11 +111,27 @@
             }
         },
         {
+            "Key": "1623c76a-64a3-4b10-ac2c-b41f35d301b9",
+            "Value": {
+                "id": "5aa73850-284a-4170-a796-bdcfcfd2ccb5",
+                "resourcePath": "sounds\\NeptuneBossMusic\\NeptuneBossMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "20fda92d-2b9a-4984-bc56-59919b9856e2",
             "Value": {
                 "id": "7b964806-b4c9-4647-bd88-743dd5cf80b5",
                 "resourcePath": "sprites\\telesetTemp\\telesetTemp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "22b7a890-b815-4ef2-9fc2-c1f42c1b8643",
+            "Value": {
+                "id": "e0d5b72f-32a4-4eae-8b51-89cfeb63a5a1",
+                "resourcePath": "objects\\obj_Pause\\obj_Pause.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -367,6 +399,14 @@
             }
         },
         {
+            "Key": "7cedaacf-07a8-42b4-aee9-9533b6c3fcfe",
+            "Value": {
+                "id": "58bfd1ec-609a-4d51-b625-7e1c6f893210",
+                "resourcePath": "sounds\\NeptuneBossMusicMad\\NeptuneBossMusicMad.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "851c6fcb-833a-4676-855a-b1499b107c05",
             "Value": {
                 "id": "7d5da6ea-2b58-4f5e-aa00-5107016b68b7",
@@ -604,6 +644,14 @@
                 "id": "ba8497ac-7024-44bb-937f-da5ef789bdbf",
                 "resourcePath": "sprites\\jupiterPlain\\jupiterPlain.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "caf86e59-75a8-4e2f-8a8f-5d03a954c45e",
+            "Value": {
+                "id": "860dca80-d22c-4d4d-a1e9-2b0dac800c7b",
+                "resourcePath": "fonts\\font_pause\\font_pause.yy",
+                "resourceType": "GMFont"
             }
         },
         {

@@ -1,0 +1,2 @@
+audio_stop_sound(NeptuneBossMusic);
+audio_stop_sound(NeptuneBossMusicMad);
