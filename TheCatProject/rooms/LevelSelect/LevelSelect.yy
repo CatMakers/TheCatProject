@@ -2,7 +2,7 @@
 {
     "name": "LevelSelect",
     "id": "98e1a9c8-717a-4d2d-aa17-8f59b6c51f62",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

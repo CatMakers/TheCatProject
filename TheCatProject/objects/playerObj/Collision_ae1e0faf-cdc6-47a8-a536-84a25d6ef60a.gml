@@ -1,5 +1,5 @@
 // on collision with trident, set invulnearability to true, decrease sprite alpha, and take damage
-if(mVulnearable )
+if(mVulnearable && !obj_Trident.isReflected )
 {
 		show_debug_message("hit!");
 		mVulnearable = false;
