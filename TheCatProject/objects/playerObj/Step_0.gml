@@ -4,64 +4,39 @@ if(mHealth <= 0)
 	game_restart();
 }
 
-lastSpawnTimer = lastSpawnTimer + delta_time;
+
 if(room == UranusStage1 || room == UranusBoss){
-	var falling = false;
-	if (!place_meeting(x, y+64, genObject))
+	if (!place_meeting(x, y+1, genObject))
 	{
-		falling = true;
+		gravity = .4;
 	}
 	else
 	{
-		falling = false;
-		//jumping = false;
+		gravity = 0;
+		jumping = false;
 	}
-	if(falling){
-		vspeed = 24;	
-	}
+	
 	if(keyboard_check(vk_right)){
-		hspeed = 12;	
+		hspeed = 8;	
 	}
 	if(keyboard_check(vk_left)){
-		hspeed = -12;
+		hspeed = -8;
 	}
 	if (!keyboard_check(vk_left) && !keyboard_check(vk_right)){
 		hspeed-=sign(hspeed);
 	}
 	
 	hspeed = clamp(hspeed, -8, 8);
-	
-	//Projectile Creation
-	if(room == UranusStage1){
-		if(lastSpawnTimer > 3000000){
-			lastSpawnTimer -= 3000000;
-			number = round(random_range(0,1) * 4);
-			for(i=0;i<number;i+=1)
-			{
-				n_x = random_range(0,1) * room_width;
-				if(n_x < 256){
-					n_x = 256;	
-				}else if(n_x > room_width){
-					n_x = room_width-256;	
-				}
-				n_y = room_height-512;
-				inst = instance_create_layer(n_x,n_y,"Projectiles",Uranus_Projectile_2);
-				inst.direction = 90;
-				inst.speed = 16+i;
-				inst.image_angle=180;
-			}
+	var jump, abletojump;
+	jump = keyboard_check_pressed(vk_up);
+	if(!jumping){
+		if(jump){
+			vspeed = -16;
 		}
+		jumping = true;
 	}
-	
-	//var jump, abletojump;
-	//jump = keyboard_check_pressed(vk_up);
-	//if(!jumping){
-	//	if(jump){
-	//		vspeed = -16;
-	//	}
-	//	jumping = true;
-	//}
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 if(room != UranusStage1 && room != UranusBoss){
 	var shield;
@@ -93,6 +68,16 @@ if(shield && !shieldObject.visible){
 	mVulnearable = false;
 }
 
+=======
+var shield;
+shield = keyboard_check_pressed(vk_space);
+if(shield && mVulnearable){
+	shieldObject.visible = true;
+	mVulnearable = false;
+	//alarm[1]= .3 *(delta_time - ot );
+}
+
+>>>>>>> parent of 9d0af90... Uranus Changes
 if(shieldObject.visible ){
 	ot += delta_time;
 }
@@ -101,4 +86,8 @@ if(ot >2000000){
 	mVulnearable = true;
 	shieldObject.visible = false;
  }
+<<<<<<< HEAD
 >>>>>>> 53938b72ea744a6b866217b163a8a2c1d0b03754
+=======
+ 
+>>>>>>> parent of 9d0af90... Uranus Changes
