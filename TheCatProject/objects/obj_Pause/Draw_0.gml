@@ -10,7 +10,7 @@ if(pause){
 	draw_set_font(font_pause);
 	draw_set_color(c_white);
 	draw_set_alpha(1);
-	draw_text(room_width/2,room_height/2,"Zues has froze time and space!!!!! \n so you should really  do some homework");
+	draw_text(room_width/2,room_height/2,"Zues has froze time and space!!!!! \n now what ya gonna do?");
 	draw_set_color(c_black);
 	
 }
