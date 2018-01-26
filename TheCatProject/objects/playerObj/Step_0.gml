@@ -61,3 +61,44 @@ if(room == NeptuneBoss){
 	}
 }
 
+
+
+
+//*****************SATURN BELT MOVEMENT*************
+if(room == SaturnBeltStage1)
+{
+	
+	if(keyboard_check_pressed(vk_right) && hspeed == 0){
+		startpointx = x;
+		hspeed = 20;
+	}
+	if(x >= (startpointx + 200)){
+		hspeed = 0;
+	}
+	if(keyboard_check_pressed(vk_left) && hspeed == 0){
+		startpointx = x;
+		hspeed = -20;
+	}
+	if(x <= (startpointx - 200)){
+		hspeed = 0;
+	}
+
+	
+// **********GOING UP AND DOWN****** 	
+	if(keyboard_check_pressed(vk_up) && vspeed == 0){
+		startpointy = y;
+		vspeed = -20;
+	}
+	if(y <= (startpointy - 200)){
+		vspeed = 0;
+	}
+	if(keyboard_check_pressed(vk_down) && vspeed == 0){
+		startpointy = y;
+		vspeed = 20;
+	}
+	if(y >= (startpointy + 200)){
+		vspeed = 0;
+	}
+}
+	
+	
