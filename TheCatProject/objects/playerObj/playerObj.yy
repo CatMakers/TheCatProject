@@ -93,11 +93,6 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "3cacb86e-736d-4feb-a1cf-103aa2dcd0c5"
-<<<<<<< HEAD
-        }
-    ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-=======
         },
         {
             "id": "18ab741a-7af6-4d38-8f91-e23bcfe416b8",
@@ -132,7 +127,6 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
->>>>>>> 918e9350dc9f8837bff29944a7805f4b80251205
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -147,10 +141,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-<<<<<<< HEAD
-=======
     "properties": null,
->>>>>>> 918e9350dc9f8837bff29944a7805f4b80251205
     "solid": false,
     "spriteId": "1246de92-f959-4b18-abc7-5e9d88a1ce62",
     "visible": true

@@ -61,8 +61,6 @@ if(room == NeptuneBoss){
 	}
 }
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -104,4 +102,3 @@ if(room == SaturnBeltStage1)
 }
 	
 	
->>>>>>> 918e9350dc9f8837bff29944a7805f4b80251205
