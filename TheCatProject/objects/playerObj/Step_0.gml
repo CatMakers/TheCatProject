@@ -101,4 +101,6 @@ if(room == SaturnBeltStage1)
 	}
 }
 	
-	
+// *** ROTATE SPRITE *** \\
+
+image_angle = point_direction(x, y, x+vspeed, y-hspeed);
