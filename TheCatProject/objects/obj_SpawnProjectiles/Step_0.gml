@@ -8,9 +8,9 @@ if(lastSpawnTimer > 3000000)
 	if(room == UranusStage1){
 		numberProj = 5;	
 	}else if(room = UranusStage2){
-		numberProj = 7;	
+		numberProj = 6;	
 	}else if(room = UranusStage3){
-		numberProj = 9;
+		numberProj = 7;
 	}
 	for(i=0;i<numberProj;i+=1)
 	{
@@ -22,7 +22,7 @@ if(lastSpawnTimer > 3000000)
 		}
 		n_y = y;
 		inst = instance_create_layer(n_x,n_y,"Projectiles",Uranus_Projectile_2);
-		inst.speed = -25-i;
+		inst.speed = -15-i;
 		inst.image_angle = 180;
 	}
 }
