@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "4ce640e8-b3f9-4505-a0f7-80fe21f05ad2",
+            "Value": {
+                "id": "7426fcaa-0e7c-4abf-b3fe-5d56d3210dfd",
+                "resourcePath": "views\\7dd9086a-4812-46ae-9872-f7cb8bbd23b0-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4e6e3eff-606e-42ce-8ed4-62c3aa1471a3",
             "Value": {
                 "id": "e547963c-f21b-425c-b7c0-8e93ec55f2f6",
@@ -503,14 +511,6 @@
             }
         },
         {
-            "Key": "7dd9086a-4812-46ae-9872-f7cb8bbd23b0",
-            "Value": {
-                "id": "339b2c97-e4a0-4939-88af-38b324396115",
-                "resourcePath": "rooms\\SaturnBeltStage1\\SaturnBeltStage1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "851c6fcb-833a-4676-855a-b1499b107c05",
             "Value": {
                 "id": "7d5da6ea-2b58-4f5e-aa00-5107016b68b7",
@@ -556,6 +556,14 @@
                 "id": "0a561840-463f-4cb7-b829-4454a504db4c",
                 "resourcePath": "views\\903e57a4-2ec3-479d-8652-7616551d016a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9102871b-864e-4af4-9d8c-2304b357f0e0",
+            "Value": {
+                "id": "00494e20-f401-4ee4-aea0-9e2a6920ab01",
+                "resourcePath": "rooms\\JupiterStage1\\JupiterStage1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -623,6 +631,14 @@
             }
         },
         {
+            "Key": "a291c129-ab2b-4a25-8dd3-ef6acb240e3a",
+            "Value": {
+                "id": "6a02a26b-834a-480e-a748-7bc11efbe331",
+                "resourcePath": "rooms\\SaturnBeltStage1\\SaturnBeltStage1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a8d26c3a-6c71-4c74-b924-967c9b8ba4da",
             "Value": {
                 "id": "c7353a1d-7b82-4322-b20c-3f65cc97be66",
@@ -652,6 +668,14 @@
                 "id": "1050f30f-61d7-4321-a896-4063b0bd4e18",
                 "resourcePath": "sprites\\tiles2\\tiles2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "acef91c5-d910-44e6-a716-769d322531a9",
+            "Value": {
+                "id": "ba79eb59-c5c8-4ab0-940a-9a1e78359f06",
+                "resourcePath": "rooms\\JupiterStage3\\JupiterStage3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -871,6 +895,14 @@
             }
         },
         {
+            "Key": "d92fe7a5-c02c-4191-ac38-b93ed750ff0d",
+            "Value": {
+                "id": "993f4977-f93b-439d-9848-96a95fa428ff",
+                "resourcePath": "rooms\\JupiterBoss\\JupiterBoss.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d954024c-933d-4d9a-a4f5-ed48b59a5c37",
             "Value": {
                 "id": "5058ac8c-047a-411c-8dc1-b159251a6d28",
@@ -924,6 +956,14 @@
                 "id": "08b8d8dd-42dd-4322-9080-020dd16bd46f",
                 "resourcePath": "sprites\\venusPlain\\venusPlain.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4ee6119-2a74-4bf4-b93d-fe0769e8504d",
+            "Value": {
+                "id": "8e46be0e-fe33-4263-abbb-e4491b95ca00",
+                "resourcePath": "rooms\\JupiterStage2\\JupiterStage2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
