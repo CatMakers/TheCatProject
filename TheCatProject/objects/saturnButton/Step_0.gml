@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-isHovered = false;
-sprite_index = jupiterGrey;
+if(global.LevelUnlocked[1] == true && !isHovered)
+{
+	sprite_index = saturnPlain;
+}
