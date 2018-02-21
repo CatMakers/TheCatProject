@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "64d8da09-ff43-4d8b-81db-1c1bb563a4d8",
+            "Value": {
+                "id": "07801b2a-8c19-4399-9c6d-945b26a57810",
+                "resourcePath": "sprites\\spr_mainMenuButton\\spr_mainMenuButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6661c56e-1312-4e34-9a04-a2d7a953aebd",
             "Value": {
                 "id": "cf8511e6-02a4-44d5-bd39-7b0a55e85f4c",
@@ -652,6 +660,14 @@
                 "id": "6a02a26b-834a-480e-a748-7bc11efbe331",
                 "resourcePath": "rooms\\SaturnBeltStage1\\SaturnBeltStage1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a857f4a3-03b2-40a6-865d-6bd6a2d85165",
+            "Value": {
+                "id": "f5b14884-6ee4-4e4b-8b11-8171e06158f6",
+                "resourcePath": "objects\\obj_mainMenuButton\\obj_mainMenuButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
