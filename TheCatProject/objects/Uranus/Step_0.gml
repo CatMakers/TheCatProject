@@ -39,25 +39,32 @@ if(last_attack_timer > 3000000)
 		inst.direction = 135
 		inst.speed = spd
 	}
-	else if(value < 0)
+	else if(value < 1)
 	{
-		number = round(random_range(0,1) * 4);
+		if(hp >= 70){
+			number = round(random_range(0,1) * 4);
+		}else if(hp >= 40){
+			number = round(random_range(0,1) * 5);
+		}else if(hp >= 10){
+			number = round(random_range(0,1) * 6);
+		}else{
+			number = round(random_range(0,1) * 7);	
+		}
 		for(i=0;i<number;i+=1)
 		{
-			n_x = random_range(0,1) * room_width
-			n_y = room_width/10 
-			inst = instance_create_layer(n_x,n_y,"Projectiles",Uranus_Projectile_2)
+			n_x = random_range(0,1) * room_width;
+			if(n_x <256){
+				n_x = 256;	
+			}else if(n_x > room_width - 256){
+				n_x = room_width - 256;
+			}
+			n_y = room_height-300;
+			inst = instance_create_layer(n_x,n_y,"Projectiles",Uranus_Projectile_2);
+			inst.speed = -10+i;
+			inst.image_angle = 180;
 		}
 	}
-
-	else
-	{
-		inst = instance_create_layer(x,y,"Projectiles",Uranus_Prokectile_3)
-		inst.direction = 90
-		inst.speed = 10		
-	}
-	
-
 }
 
 
+pc = (hp / 100) * 100;

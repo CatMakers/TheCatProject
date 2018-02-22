@@ -10,7 +10,7 @@ if(pause == false)
 
 
 	if(room == UranusStage1 || room == UranusStage2 || room == UranusStage3 || room == UranusBoss){
-		if (!place_meeting(x, y+64, genObject))
+		if (!place_meeting(x, y+64, genObject) && room != UranusBoss)
 		{
 			vspeed = 24
 		}	
@@ -23,7 +23,6 @@ if(pause == false)
 		if (!keyboard_check(vk_left) && !keyboard_check(vk_right)){
 			hspeed-=sign(hspeed);
 		}
-	
 		hspeed = clamp(hspeed, -16, 16);
 	}
 	if(room == NeptuneBoss){
@@ -44,10 +43,28 @@ if(pause == false)
 			shieldObject.visible = false;
 		}
 	}
-
-
-
-
+	//*****************URANUS BOSS ROOM FUNCTIONS**************
+	if(room == UranusBoss){
+		for(i = 0; i<ammo; i++){
+			inst = bulletArray[i];
+			inst.speed = orbit_speed;
+			inst.angle += orbit_speed;
+			if(inst.angle >= 360){
+				inst.angle -= 360;	
+			}
+			inst.x = lengthdir_x(orbit_distance, inst.angle) + (x);
+			inst.y = lengthdir_y(orbit_distance, inst.angle) + (y);		
+		}
+		
+		if(keyboard_check_pressed(vk_down) && ammo >= 1){
+			inst = bulletArray[ammo-1];
+			inst.speed = 20;
+			inst.vspeed = speed;
+			inst.direction = 270;
+			ammo -= 1;
+			
+		}
+	}
 	//*****************SATURN BELT MOVEMENT*************
 	if(room == SaturnBeltStage1)
 	{
