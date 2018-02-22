@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(mVulnearable)
 {
-	if(room != UranusBoss || ammo <= 3){
+	if(room != UranusBoss || ammo > 3){
 		show_debug_message("hit!");
 		mVulnearable = false;
 		mAlpha = 0.5;
