@@ -68,7 +68,6 @@ if(pause == false)
 	//*****************SATURN BELT MOVEMENT*************
 	if(room == SaturnBeltStage1)
 	{
-	
 		if(keyboard_check_pressed(vk_right) && hspeed == 0){
 			startpointx = x;
 			hspeed = 20;
