@@ -5,12 +5,12 @@
     "name": "obj_mainMenuButton",
     "eventList": [
         {
-            "id": "ca19b627-d790-44f0-a017-3cd2f0b453aa",
+            "id": "2b9ee795-354b-4c7d-97c6-3beea224c502",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "a857f4a3-03b2-40a6-865d-6bd6a2d85165"
         }
