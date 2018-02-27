@@ -1,23 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-fastasttime += delta_time;
-normasttime += + delta_time;
-slowasttime += delta_time;
-dangertime += delta_time;
-supertime += delta_time;
-
-if(supertime > 10000000){
-	supertime -= 10000000;
-	randspawn = random_range(1,6);
-	if(randspawn > 3){
-		dang = instance_create_layer((0-256), 9400,"DangerAstriod",obj_DangerAstriod);
-		dang.speed = 27
-		if(dang.x > 2590){
-			instance_destroy();
-		}
-	}
-}
 
 if(fastasttime > 700000){
 		

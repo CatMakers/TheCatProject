@@ -101,4 +101,38 @@ if(room == SaturnBeltStage1)
 	}
 }
 	
+//***************ROOM 11******************
+
+if(room == room11){
+	if(keyboard_check_pressed(vk_right)){
+		hspeed = +16;	
+	}
+	if(keyboard_check_released(vk_right)){
+		hspeed = 0;
+		vspeed = 0;
+	}
+	if(keyboard_check_pressed(vk_left)){
+		hspeed = -16;
+	}
+	if(keyboard_check_released(vk_left)){
+		hspeed = 0;
+		vspeed = 0;
+	}
+	if(self.x > ((room_width*.5) + 50) && keyboard_check_pressed(vk_right)){
+		vspeed = 14;
+	}
+	if(self.x < ((room_width*.5) - 50) && keyboard_check_pressed(vk_left)){
+		vspeed = 14;
+	}
 	
+	
+	if(self.x > ((room_width*.5) + 50) && keyboard_check_pressed(vk_left)){
+		vspeed = -14;
+	}
+	if(self.x > ((room_width*.5) - 50) && keyboard_check_pressed(vk_right)){
+		vspeed = -14;
+	}
+	if(self.y >= 1700 && self.x < (room_width*.5) + 50 && self.x < (room_width*.5) - 50){
+		vspeed = 0;
+	}
+}
